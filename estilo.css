@@ -213,6 +213,7 @@
     justify-content: space-between;
     img{
         width: 25vw;
+        max-height: 25vh;
         border-radius: 15px;
     }
 }
