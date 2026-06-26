@@ -172,7 +172,7 @@
     padding: 1vh;
     border: none;
     border-radius: 1vw;
-    background-image: url(Imagens/lupa.png);
+    background-image: url('/Imagens/lupa.png');
     background-size: 2vh;
     background-repeat: no-repeat;
     background-position: 31vw;
