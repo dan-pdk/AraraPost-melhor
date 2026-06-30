@@ -110,13 +110,15 @@ li{
     margin-top: 3%;
     background-color: var(--azul25);
     width: 25vw;
-    height: 5vh;
+    padding-left: 1.5vw;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
     border: none;
     border-radius: 1vh;
 }
 
 input::placeholder{
-    padding-left: 3vw;
+    padding-left: 1.5vw;
 }
 
 #email-input{
@@ -173,4 +175,20 @@ input::placeholder{
     text-decoration: underline;
     text-decoration-color: var(--Preto);
     transition: 0.5s ease-in-out;
+}
+
+#email-input:focus::placeholder {
+    color: transparent;
+}
+
+#email-input:focus {
+    background-image: none;
+}
+
+#senha-input:focus::placeholder {
+    color: transparent;
+}
+
+#senha-input:focus {
+    background-image: none;
 }
