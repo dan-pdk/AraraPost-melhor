@@ -1,6 +1,7 @@
 :root {
     --Preto: #2C2626;
     --Preto75: #2C2626bf;
+    --Preto50: #2C262680;
     --azul: #44C4FF;
     --azul50: #44c4ff80;
     --azul25: #44C4FF40;
@@ -32,7 +33,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    box-shadow: var(--Preto75) 0vh 0vh 1vh 0.5vh;
+    box-shadow: rgba(211, 211, 211, 0.5) 0vh 0vh 2vh 0.5vh;
     border-radius: 3vh;
 }
 
@@ -68,6 +69,7 @@ main{
     text-align: center;
     color: var(--Preto);
     width: 70%;
+    margin-top: 2vh;
 }
 
 #cadastrar{
@@ -148,11 +150,27 @@ input::placeholder{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 20vw;
+    width: 18vw;
 }
 
 .imagens img{
-    height: 10vh;
+    height: 8vh;
     border: solid var(--Preto75) 1px;
     border-radius: 50%;
+}
+
+#text3 {
+    position: absolute;
+    top: 12.5vh;
+    left: 89vw;
+    color: var(--Preto);
+    text-decoration-color: rgba(44, 38, 38, 0);
+    transition: 0.5s ease-in-out;
+
+}
+
+#text3:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--Preto);
+    transition: 0.5s ease-in-out;
 }
