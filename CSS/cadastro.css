@@ -72,7 +72,7 @@ main{
     margin-top: 2vh;
 }
 
-#cadastrar{
+#entrar{
     margin-top: 3%;
     font-size: medium;
     background-color: var(--azul);
@@ -136,7 +136,7 @@ input::placeholder{
     background-repeat: no-repeat;
 }
 
-#entrar{
+#cadastrar{
     margin-top: 3%;
     font-size: medium;
     background-color: transparent;
@@ -191,5 +191,20 @@ input::placeholder{
 }
 
 #senha-input:focus {
+    background-image: none;
+}
+
+#apelido-input {
+    background-image: url('/Imagens/pessoa.png');
+    background-size: 5vh;
+    background-position: 0.4vw;
+    background-repeat: no-repeat;
+}
+
+#apelido-input:focus::placeholder {
+    color: transparent;
+}
+
+#apelido-input:focus {
     background-image: none;
 }
