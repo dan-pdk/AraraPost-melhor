@@ -1,0 +1,383 @@
+[
+    {
+        "id": "pesquisa",
+        "name": "Pesquisa",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "10",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "0",
+                "ingles": "0",
+                "espanhol": "0",
+                "artes": "0",
+                "edFisica": "0",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "0",
+                "fisica": "0",
+                "quimica": "0",
+                "biologia": "0"
+            }
+            
+        }
+    },
+    {
+        "id": "ensino",
+        "name": "Ensino",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "10",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "0",
+                "ingles": "0",
+                "espanhol": "0",
+                "artes": "0",
+                "edFisica": "0",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "0",
+                "fisica": "0",
+                "quimica": "0",
+                "biologia": "0"
+            }
+            
+        }
+    },
+    {
+        "id": "extensao",
+        "name": "Extensão",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "10"
+            }, "commonTypes":{
+                "portugues": "0",
+                "ingles": "0",
+                "espanhol": "0",
+                "artes": "0",
+                "edFisica": "0",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "0",
+                "fisica": "0",
+                "quimica": "0",
+                "biologia": "0"
+            }
+            
+        }
+    },
+    {
+        "id": "linguaPortuguesa",
+        "name": "Língua Portuguesa",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "10",
+                "ingles": "5",
+                "espanhol": "5",
+                "artes": "5",
+                "edFisica": "5",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "0",
+                "fisica": "0",
+                "quimica": "0",
+                "biologia": "0"
+            }
+            
+        }
+    },
+    {
+        "id": "ingles",
+        "name": "Ingles",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "5",
+                "ingles": "10",
+                "espanhol": "5",
+                "artes": "5",
+                "edFisica": "5",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "0",
+                "fisica": "0",
+                "quimica": "0",
+                "biologia": "0"
+            }
+        }
+    },
+    {
+        "id": "espanhol",
+        "name": "Espanhol",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "5",
+                "ingles": "5",
+                "espanhol": "10",
+                "artes": "5",
+                "edFisica": "5",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "0",
+                "fisica": "0",
+                "quimica": "0",
+                "biologia": "0"
+            }
+        }
+    },
+    {
+        "id": "artes",
+        "name": "Artes",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "5",
+                "ingles": "5",
+                "espanhol": "5",
+                "artes": "10",
+                "edFisica": "5",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "0",
+                "fisica": "0",
+                "quimica": "0",
+                "biologia": "0"
+            }
+        }
+    },
+    {
+        "id": "edFisica",
+        "name": "Ed Física",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "5",
+                "ingles": "5",
+                "espanhol": "5",
+                "artes": "5",
+                "edFisica": "10",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "0",
+                "fisica": "0",
+                "quimica": "0",
+                "biologia": "0"
+            }
+        }
+    },
+    {
+        "id": "sociologia",
+        "name": "Sociologia",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "0",
+                "ingles": "0",
+                "espanhol": "0",
+                "artes": "0",
+                "edFisica": "0",
+                "sociologia": "10",
+                "historia": "5",
+                "geografia": "5",
+                "matematica": "0",
+                "fisica": "0",
+                "quimica": "0",
+                "biologia": "0"
+            }
+        }
+    },
+    {
+        "id": "historia",
+        "name": "História",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "0",
+                "ingles": "0",
+                "espanhol": "0",
+                "artes": "0",
+                "edFisica": "0",
+                "sociologia": "5",
+                "historia": "10",
+                "geografia": "5",
+                "matematica": "0",
+                "fisica": "0",
+                "quimica": "0",
+                "biologia": "0"
+            }
+        }
+    },
+    {
+        "id": "geografia",
+        "name": "Geografia",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "0",
+                "ingles": "0",
+                "espanhol": "0",
+                "artes": "0",
+                "edFisica": "0",
+                "sociologia": "5",
+                "historia": "5",
+                "geografia": "10",
+                "matematica": "0",
+                "fisica": "0",
+                "quimica": "0",
+                "biologia": "0"
+            }
+        }
+    },
+    {
+        "id": "matematica",
+        "name": "Matemática",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "0",
+                "ingles": "0",
+                "espanhol": "0",
+                "artes": "0",
+                "edFisica": "0",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "10",
+                "fisica": "5",
+                "quimica": "5",
+                "biologia": "5"
+            }
+        }
+    },
+    {
+        "id": "fisica",
+        "name": "Física",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "0",
+                "ingles": "0",
+                "espanhol": "0",
+                "artes": "0",
+                "edFisica": "0",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "5",
+                "fisica": "10",
+                "quimica": "5",
+                "biologia": "5"
+            }
+        }
+    },
+    {
+        "id": "quimica",
+        "name": "Química",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "0",
+                "ingles": "0",
+                "espanhol": "0",
+                "artes": "0",
+                "edFisica": "0",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "5",
+                "fisica": "5",
+                "quimica": "10",
+                "biologia": "5"
+            }
+        }
+    },
+    {
+        "id": "biologia",
+        "name": "Biologia",
+        "image": "",
+        "postTypeValues": {
+            "institutionalTypes":{
+                "pesquisa": "0",
+                "ensino": "0",
+                "extensao": "0"
+            }, "commonTypes":{
+                "portugues": "0",
+                "ingles": "0",
+                "espanhol": "0",
+                "artes": "0",
+                "edFisica": "0",
+                "sociologia": "0",
+                "historia": "0",
+                "geografia": "0",
+                "matematica": "5",
+                "fisica": "5",
+                "quimica": "5",
+                "biologia": "10"
+            }
+        }
+    }
+]
+
+
