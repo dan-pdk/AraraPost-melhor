@@ -57,6 +57,7 @@ const projetoTeste3 = new projeto(
 )
 
 const projetosDestaque = document.getElementById("projetos-destaque")
+const projetosRecomendados = document.getElementById("projetos-recomendados")
 const listaProjetos = []
 let htmlAcumulado = ""
 
@@ -69,8 +70,9 @@ console.log("oi")
 
 listaProjetos.forEach(projeto =>{
     htmlAcumulado += `
-     <div class="destaque${projeto.idProjeto}" id="${projeto.id}"><img src="${projeto.capa}" alt=""></div>
+        <div class="destaque${projeto.idProjeto}" id="${projeto.id}"><img src="${projeto.capa}" alt=""></div>
     `
 })
 
 projetosDestaque.innerHTML = htmlAcumulado
+projetosRecomendados.innerHTML = htmlAcumulado
