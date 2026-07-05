@@ -269,7 +269,7 @@ header {
 }
 
 .destaque1, .destaque2, .destaque3 {
-    border: 1px solid #2C2626;
+    border: 1px solid var(--Preto50);
     border-radius: 10px;
 }
 
@@ -314,4 +314,38 @@ footer {
 
 .footer1, .footer2, .footer3 {
     transform: scaleY(-1);
+}
+
+#footerContent {
+    background-color: var(--azul);
+    text-align: center;
+}
+
+#topFooterContent {
+    width: fit-content;
+    margin: auto;
+}
+
+#topFooterContent a {
+    text-decoration: none;
+    color: var(--Preto);
+    font-size: x-large;
+    padding: 10vh;
+}
+
+#bottomFooterContent {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#bottomFooterContent span {
+    color: var(--Preto);
+    font-size: x-large;
+}
+
+#footerLine {
+    margin-top: 3vh;
+    border: none;
+    border-top: 2px solid var(--Preto);
+    
 }
