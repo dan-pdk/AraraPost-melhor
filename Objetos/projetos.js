@@ -65,8 +65,6 @@ listaProjetos.push(projetoTeste1)
 listaProjetos.push(projetoTeste2)
 listaProjetos.push(projetoTeste3)
 
-console.log(listaProjetos)
-console.log("oi")
 
 listaProjetos.forEach(projeto =>{
     htmlAcumulado += `
