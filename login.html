@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AraraPost - Login</title>
-    <link rel="stylesheet" href="CSS/login.css">
+    <title>arara poste</title>
 </head>
-
 <body>
-    <main>
-        <div class="esq">
-            <h1 id="title-esq">Bem vindo!</h1>
-            <p id="text1">Crie sua conta agora no AraraPost para interagir e publicar seus projetos!</p>
-            <p id="text2">Ainda não possui uma conta?</p>
-            <a href="cadastro.html"><button id="cadastrar">Cadastrar</button></a>
-        </div>
+    arara poste
+    <img src="https://thumbs.dreamstime.com/b/sereno-aura-em-meio-uma-floresta-m%C3%ADstica-arara-coruja-corda-humanoide-et%C3%A9rea-com-asas-celestiais-sobre-%C3%A1rvores-antigas-serena-286848505.jpg" alt="" style="display: none;">
 
-        <div class="dir">
-
-            <h1 id="title-dir">Entre com sua conta</h1>
-            <a href="index.html" id="text3">Voltar</a>
-            <ul class="imagens">
-                <li><img src="Imagens/github.png" alt=""></li>
-                <li><img src="Imagens/google.png" alt=""></li>
-                <li><img src="Imagens/linkedin.png" alt=""></li>
-            </ul>
-            <ul class="inputs">
-                <li><input id="email-input" type="text" placeholder="Email"></li>
-                <li><input id="senha-input" type="text" placeholder="Senha"></li>
-            </ul>
-
-            <button id="entrar">Entrar</button>
-        </div>
-    </main>
+    faz logim
+    <button onclick="logim()">logim</button>
 </body>
+<script>
+    function delay(s) {
+        setTimeout(() => {}, 1000 * s)
+    }
 
+    function logim() {
+        const jumpscare = document.querySelector('img');
+
+        document.body.style.backgroundColor = "red";
+        delay(1);
+
+        document.title = "EVIL arar poste"
+        delay(1);
+
+        alert("voce real mente achou que eu era o arar ponte?");
+        jumpscare.style.display = 'block'
+        document.title = "JUMPSCARE"
+
+    }
+</script>
 </html>
